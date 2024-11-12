@@ -2,10 +2,30 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Login</title>
+<<<<<<< HEAD
+<meta charset="ISO-8859-1">
+<title>Blog Platform</title>
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link href="createPost.css" rel="stylesheet"> 
+    
 </head>
 <body>
+  <header>
+    <nav>
+      <div class="logo">
+        <a href="#">BLOG PLATFORM</a>
+      </div>
+      <ul class="nav-links">
+        <li><a href="index.jsp">HOME</a></li>
+        <li><a href="createPost.jsp">CREATE POST</a></li>
+        <li><a href="register.jsp">REGISTER</a></li>
+      </ul>
+      <div class="actions">
+        <button class="login-page"><a href="login.jsp">Login</a></button>
+        <button class="create-post"><a href="createPost.jsp">Get Started</a></button>
+      </div>
+    </nav>
+  </header>
     <div class="container">
         <h1>Login</h1>
         <% String errorMessage = (String) request.getAttribute("errorMessage"); %>
@@ -28,4 +48,10 @@
         <p>Don't have an account? <a class="link" href="register.jsp">Register here</a>.</p>
     </div>
 </body>
+<<<<<<< HEAD
+<footer>
+    <p>&copy; 2024 Blog Platform. All rights reserved.</p>
+  </footer>
+=======
+>>>>>>> 3f2833a1247ee598369a4fa497530d5c931ff064
 </html>
