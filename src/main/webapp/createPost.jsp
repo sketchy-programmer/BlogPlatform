@@ -2,6 +2,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+<<<<<<< HEAD
 <meta charset="ISO-8859-1">
 <title>Blog Platform</title>
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
@@ -25,10 +26,7 @@
       </div>
     </nav>
   </header>
-
-  <main>
-<body>
-    <div class="container">
+  <div class="container">
         <h1>Create New Post</h1>
         <form action="createPost" method="post">
         	<div class="form-group">
@@ -45,7 +43,10 @@
         <a href="logout" class="logout-button btn btn-primary">Logout</a>
     </div>
 </body>
+<<<<<<< HEAD
   <footer>
     <p>&copy; 2024 Blog Platform. All rights reserved.</p>
   </footer>
+=======
+>>>>>>> 3f2833a1247ee598369a4fa497530d5c931ff064
 </html>

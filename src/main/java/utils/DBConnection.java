@@ -8,7 +8,11 @@ import java.sql.Statement;
 public class DBConnection {
     
     private static final String URL = "jdbc:mysql://localhost:3306/blog";
+<<<<<<< HEAD
     private static final String USERNAME = "angrej";
+=======
+    private static final String USERNAME = "root";
+>>>>>>> 3f2833a1247ee598369a4fa497530d5c931ff064
     private static final String PASSWORD = "13ac23ff";
 
     public static Connection getConnection() throws Exception {

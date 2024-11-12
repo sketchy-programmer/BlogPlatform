@@ -2,6 +2,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+<<<<<<< HEAD
 <meta charset="ISO-8859-1">
 <title>Blog Platform</title>
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
@@ -25,7 +26,6 @@
       </div>
     </nav>
   </header>
-<body>
     <div class="container">
         <h1>Register</h1>
         <form action="register" method="post">
@@ -48,7 +48,10 @@
         <p>Already have an account? <a class="link" href="login.jsp">Login here</a>.</p>
     </div>
 </body>
+<<<<<<< HEAD
  <footer>
     <p>&copy; 2024 Blog Platform. All rights reserved.</p>
   </footer>
+=======
+>>>>>>> 3f2833a1247ee598369a4fa497530d5c931ff064
 </html>
